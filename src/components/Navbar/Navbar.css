@@ -1,21 +1,64 @@
-ul {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 23px 30px 0;
+}
+
+.logo {
+    display: inline-block;
+    line-height: 120%;
+    position: relative;
+    z-index: 8;
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    display: block;
     padding: 0px;
-    margin: 0px;
+    margin: 0 50px 0 0;
     list-style: none;
 }
   
-a {
-    display: flex;
-    justify-content: flex-end;
-    color: rgb(0, 0, 0);
-    padding: 8px 16px;
-    text-decoration: none;
+li {
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    line-height: 1;
+    margin: 0 0 10px;
+    text-align: end;
+    transition: 0.2s;
 }
-  
-a:hover {
-    background-color: #555;
-    color: white;
+
+li:hover {
+    transform: scale(1.2); 
+}
+
+.arie {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    transition: 10s;
+}
+
+.arie:hover {
+    transform: rotate(3600deg);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
