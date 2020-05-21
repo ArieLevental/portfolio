@@ -1,6 +1,5 @@
-@font-face {
-    font-family: 'Helvetica Now Display Medium';
-    src: local('HelveticaNowDisplay-Medium'), url(./HelveticaNowDisplay-Medium.ttf) format('truetype');
+*{
+    margin: 0;
 }
 
 .intro {
@@ -26,6 +25,18 @@
 }
 
 #title {
-    font-family: 'Helvetica Now Display Medium', Times, serif;
-    font-size: 3em;
+    font-size: 3.875rem;
+    line-height: 4.0625rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#about {
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: 500;
+    color: #878a8f;
+    letter-spacing: normal;
 }

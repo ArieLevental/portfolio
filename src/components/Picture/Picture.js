@@ -1,7 +1,6 @@
 import React from 'react';
 import './Picture.css';
 import myPicture from './picture.png';
-import './HelveticaNowDisplay-Medium.ttf';
 
 const Picture = () => {
     return (
