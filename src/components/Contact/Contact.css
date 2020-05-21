@@ -1,0 +1,43 @@
+.contact {
+    margin: 0 7rem 3rem 7rem;
+    padding-top: 2rem;
+}
+
+h3 {
+    font-size: 1.145rem;
+    line-height: 1.875rem;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-weight: 500;
+    color: #878a8f;
+    letter-spacing: normal;
+}
+
+.icons {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.fa-envelope {
+    font-size: 40px;
+    transition: ease-in 0.1s;
+    z-index: 3;
+}
+
+.fa-envelope:hover {
+    opacity: 0.8;
+    font-size: 43px;
+}
+
+.fa-linkedin-in {
+    font-size: 40px;
+    transition: ease-in 0.1s;
+    z-index: 3;
+}
+
+.fa-linkedin-in:hover {
+    opacity: 0.8;
+    font-size: 43px;
+}

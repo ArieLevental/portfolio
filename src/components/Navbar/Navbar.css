@@ -1,7 +1,6 @@
 header {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     z-index: 10;
     display: -webkit-box;
@@ -21,6 +20,7 @@ header {
     line-height: 120%;
     position: relative;
     z-index: 8;
+    font-weight: 800;
 }
 
 nav {

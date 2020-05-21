@@ -1,0 +1,18 @@
+.projects {
+    margin: 0 7rem 0 7rem;
+    padding-top: 2rem;
+}
+
+.eagle-eye {
+    background-image: url(https://i.gyazo.com/999580b3925e965193912c487ca95fd1.png);
+    background-position: center;
+    height: 40vh;
+    width: 40vw;
+}
+
+.robofriends {
+    background-image: url(https://i.gyazo.com/70371e434f8f10cd507fec1f90b5c09d.png);
+    background-position: center;
+    height: 40vh;
+    width: 40vw;
+}

@@ -1,0 +1,73 @@
+.footer {
+    background-color: #e7e7e7;
+    margin-top: 2rem;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+
+#copyrights {
+    font-size: small;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 130px;
+    height: 25px;
+}
+
+.fa-github{
+    color: gray;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.fa-github:hover {
+    color: black;
+    font-size: 28px;
+    transform: rotate(360deg);
+}
+
+.fa-linkedin{
+    color: gray;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+    font-size: 28px;
+    transform: rotate(360deg);
+}
+
+.fa-facebook{
+    color: gray;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    font-size: 28px;
+    transform: rotate(360deg);
+}
+
+.fa-twitter{
+    color: gray;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+    font-size: 28px;
+    transform: rotate(360deg);
+}

@@ -15,8 +15,13 @@
     height: auto;
 }
 
+.picture {
+    width: 30%;
+}
+
 .text {
     display: flex;
+    width: 70%;
     align-content: space-between;
     flex-direction: column;
     margin: 10rem 0 0 0;
@@ -24,8 +29,11 @@
 
 #name {
     width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 7px;
     font-size: 1em;
     opacity: 0.1;
+    font-weight: 700;
     z-index: 3;
 }
 
@@ -34,6 +42,7 @@
     line-height: 4.0625rem;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: 800;
 }
 
 #about {
