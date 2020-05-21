@@ -8,8 +8,8 @@ const Contact = () => {
             <h3>I'm eager to learn new things and improve myself. 
             I'm currently looking for my next challenge so feel free to reach out to me any time.</h3>
             <div className='icons'>
-                <a href="mailto:arieka39@gmail.com"><i class="far fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/arie-levental/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:arieka39@gmail.com"><i className="far fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/arie-levental/"><i className="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     );

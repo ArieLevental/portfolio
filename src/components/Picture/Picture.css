@@ -8,6 +8,7 @@
     flex-direction: row-reverse;
     margin: 0 7rem 0 7rem;
     z-index: -1;
+    height: 100vh;
 }
 
 .picture > img {
