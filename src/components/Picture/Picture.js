@@ -5,7 +5,7 @@ import myPicture from './picture.png';
 const Picture = () => {
     return (
         <div className='intro'>
-            <div className="Picture">
+            <div className="picture">
                 <img src={myPicture} alt=" " width="340" height="500" />
             </div>
             <div className="text">
