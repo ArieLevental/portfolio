@@ -92,8 +92,17 @@ grid-area: links;
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
+
 .card {
     transition: 0.5s ease;
     cursor: pointer;
     margin:30px;
+}
+
+.card__icons {
+    transition: ease 0.3s;
+}
+
+.card__icons:hover {
+    opacity: 0.7;
 }

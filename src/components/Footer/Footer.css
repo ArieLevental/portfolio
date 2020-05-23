@@ -24,13 +24,13 @@
     height: 25px;
 }
 
-.fa-github{
+.another{
     color: gray;
     font-size: 20px;
     transition: 0.3s;
 }
 
-.fa-github:hover {
+.another:hover {
     color: black;
     font-size: 28px;
     transform: rotate(360deg);

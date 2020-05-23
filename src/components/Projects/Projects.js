@@ -15,11 +15,11 @@ const Projects = () => {
             </div>
             <div className="card-links">
               <div className="link">
-                <div className="value"><i className="fab fa-github"></i></div>
+                <div className="value"><i className="fab fa-github card__icons"></i></div>
                 <div className="type">See Code</div>
               </div>
               <div className="link border">
-                <div className="value"><i className="fas fa-feather-alt"></i></div>
+                <div className="value"><i className="fas fa-feather-alt card__icons"></i></div>
                 <div className="type">Live Demo</div>
               </div>
             </div>
@@ -34,11 +34,11 @@ const Projects = () => {
           </div>
           <div className="card-links">
             <div className="link">
-              <div className="value"><i className="fab fa-github"></i></div>
+              <div className="value"><i className="fab fa-github card__icons"></i></div>
               <div className="type">See Code</div>
             </div>
             <div className="link border">
-              <div className="value"><i className="fas fa-feather-alt"></i></div>
+              <div className="value"><i className="fas fa-feather-alt card__icons"></i></div>
               <div className="type">Live Demo</div>
             </div>
           </div>
