@@ -4,6 +4,7 @@ import './Projects.css';
 const Projects = () => {
     return (
         <div className="projects">
+          <p id="my__projects_p"></p>
             <h1>My Projects</h1>
             <div className="cards">
             <div className="card">

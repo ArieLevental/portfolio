@@ -10,16 +10,16 @@ const Navbar = () => {
         </div>
         <div class="menu-wrap">
             <input type="checkbox" class="toggler" />
-            <div class="hamburger"><div></div></div>
+            <div class="hamburger"><p>Menu </p><div></div></div>
             <div class="menu">
                 <div>
                     <div>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li className="about__me"><a href="#about__me__p">About Me</a></li>
+                            <li className="my__projects"><a href="#my__projects_p">Projects</a></li>
+                            <li className="contact__me"><a href="#contact__me__p">Contact</a></li>
                         </ul>
+                        <p className="copyrights">© 2020 Arie Levental</p>  
                     </div>
                 </div>
             </div>

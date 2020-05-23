@@ -3,6 +3,10 @@
   src: local('HelveticaNowDisplay-Medium'), url(./HelveticaNowDisplay-Medium.ttf) format('truetype');
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -12,7 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Helvetica Now Display Medium', Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 code {

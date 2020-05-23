@@ -41,6 +41,8 @@ grid-area: links;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
 }
 
 .card-image2 {
@@ -49,6 +51,8 @@ grid-area: links;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
+    filter: grayscale(100%) brightness(115%);
+    transition: .3s ease-in-out; 
 }
 
 .card-text {
@@ -86,6 +90,12 @@ grid-area: links;
     flex-direction: column;
     color: black;
     padding:10px;
+    transition: ease 0.1s;
+  }
+
+  .card-links .link:hover {
+    opacity: 0.8;
+    cursor: pointer;
   }
 
   .card:hover {
@@ -93,16 +103,15 @@ grid-area: links;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
 
+.card:hover .card-image {
+  filter: grayscale(0);
+}
+
+.card:hover .card-image2 {
+  filter: grayscale(0);
+}
+
 .card {
     transition: 0.5s ease;
-    cursor: pointer;
     margin:30px;
-}
-
-.card__icons {
-    transition: ease 0.3s;
-}
-
-.card__icons:hover {
-    opacity: 0.7;
 }
