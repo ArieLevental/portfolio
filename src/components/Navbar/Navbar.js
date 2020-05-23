@@ -3,21 +3,28 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <header>
-            <div className="logo arie">
-            Arie
-            <br/>
-            Levental
+        <div className="header">
+        <div className="logo">
+        Arie <br />
+        Levental
+        </div>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler" />
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <nav className='navbar'>
-            <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
-                <ul>
-                    <li><a href="#top">About me</a></li>
-                    <li><a href=" ">Projects</a></li>
-                    <li><a href=" ">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        </div>
+        </div>
     );
 }
 
