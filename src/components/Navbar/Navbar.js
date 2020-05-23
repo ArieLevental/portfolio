@@ -1,12 +1,12 @@
 import React from 'react';
 import './Navbar.css';
+import myLogo from './Logo.png';
 
 const Navbar = () => {
     return (
         <div className="header">
         <div className="logo">
-        Arie <br />
-        Levental
+        <img src={myLogo} alt=" " width="350" height="70" />
         </div>
         <div class="menu-wrap">
             <input type="checkbox" class="toggler" />
