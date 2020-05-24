@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Helvetica Now Display Medium';
-  src: local('HelveticaNowDisplay-Medium'), url(./HelveticaNowDisplay-Medium.ttf) format('truetype');
+  font-family: 'Helvetica Now Display Bold';
+  src: local('HelveticaNowDisplay-Bold'), url(./HelveticaNowDisplay-Bold.ttf) format('truetype');
 }
 
 html, body {
@@ -15,11 +15,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Helvetica Now Display Medium', Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Helvetica Now Display Bold', Menlo, Monaco, Consolas, 'Courier New',
   monospace;
 }
 
 code {
-  font-family: 'Helvetica Now Display Medium', Times, serif, 'Courier New',
+  font-family: 'Helvetica Now Display Bold', Times, serif, 'Courier New',
   monospace;
 }

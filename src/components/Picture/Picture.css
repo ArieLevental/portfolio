@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Helvetica Now Display Regular';
+    src: local('HelveticaNowDisplay-Regular'), url(./HelveticaNowDisplay-Regular.ttf) format('truetype');
+}
+
 *{
     margin: 0;
 }
@@ -6,7 +11,7 @@
     padding: 2rem 0 0 0;
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 10vw 0 10vw;
+    margin: 0 5vw 0 5vw;
     z-index: -1;
     height: 100vh;
 }
@@ -23,7 +28,6 @@
 .text {
     display: flex;
     width: 70%;
-    align-content: space-between;
     flex-direction: column;
     margin: 10rem 0 0 0;
 }
@@ -35,23 +39,24 @@
     font-size: 1em;
     opacity: 0.1;
     font-weight: 700;
-    z-index: 3;
+    z-index: 0;
 }
 
 #title {
-    font-size: 2.125rem;
-    line-height: 2.5rem;
-    padding-top: 5px;
+    font-size: 3.8rem;
+    line-height: 4rem;
+    margin-top: 15px;
     padding-bottom: 5px;
     font-weight: 800;
 }
 
 #about {
+    font-family: 'Helvetica Now Display Regular';
     font-size: 1.375rem;
     line-height: 1.875rem;
     padding-top: 2px;
     padding-bottom: 3px;
     font-weight: 500;
     color: #878a8f;
-    letter-spacing: normal;
+    letter-spacing: 0.1px;
 }
