@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "//averageleo.github.io/portfolio/static/css/main.603d3add.chunk.css",
+    "main.js": "//averageleo.github.io/portfolio/static/js/main.769c68a0.chunk.js",
+    "main.js.map": "//averageleo.github.io/portfolio/static/js/main.769c68a0.chunk.js.map",
+    "runtime-main.js": "//averageleo.github.io/portfolio/static/js/runtime-main.508ebc2d.js",
+    "runtime-main.js.map": "//averageleo.github.io/portfolio/static/js/runtime-main.508ebc2d.js.map",
+    "static/js/2.3f20e546.chunk.js": "//averageleo.github.io/portfolio/static/js/2.3f20e546.chunk.js",
+    "static/js/2.3f20e546.chunk.js.map": "//averageleo.github.io/portfolio/static/js/2.3f20e546.chunk.js.map",
+    "index.html": "//averageleo.github.io/portfolio/index.html",
+    "precache-manifest.1954ee6c5f11a246a3c7c80cd24e19d5.js": "//averageleo.github.io/portfolio/precache-manifest.1954ee6c5f11a246a3c7c80cd24e19d5.js",
+    "service-worker.js": "//averageleo.github.io/portfolio/service-worker.js",
+    "static/css/main.603d3add.chunk.css.map": "//averageleo.github.io/portfolio/static/css/main.603d3add.chunk.css.map",
+    "static/js/2.3f20e546.chunk.js.LICENSE.txt": "//averageleo.github.io/portfolio/static/js/2.3f20e546.chunk.js.LICENSE.txt",
+    "static/media/index.css": "//averageleo.github.io/portfolio/static/media/HelveticaNowDisplay-Bold.be1fe313.ttf",
+    "static/media/HelveticaNowDisplay-Medium.ttf": "//averageleo.github.io/portfolio/static/media/HelveticaNowDisplay-Medium.53b5d05a.ttf",
+    "static/media/Picture.css": "//averageleo.github.io/portfolio/static/media/HelveticaNowDisplay-Regular.9632144b.ttf",
+    "static/media/Logo.png": "//averageleo.github.io/portfolio/static/media/Logo.f0480978.png",
+    "static/media/picture.png": "//averageleo.github.io/portfolio/static/media/picture.c4b1e392.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.508ebc2d.js",
+    "static/js/2.3f20e546.chunk.js",
+    "static/css/main.603d3add.chunk.css",
+    "static/js/main.769c68a0.chunk.js"
+  ]
+}
