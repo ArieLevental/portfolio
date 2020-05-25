@@ -17,7 +17,7 @@ const Picture = () => {
                 I focus on planning, designing and developing both Back-End and Front-End.
                 <br />
                 Hands-on a wide range of technologies and platforms:
-                JaveScript, CSS, HTML, React, Redux, PostgreSQL, Node.js and Adobe Photoshop.</p>
+                JaveScript,  CSS, HTML, React, Redux, PostgreSQL, Node.js and Adobe Photoshop.</p>
             </div>
         </div>
     );
