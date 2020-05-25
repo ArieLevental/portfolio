@@ -9,8 +9,8 @@ const Contact = () => {
             <h3>I'm eager to learn new things and improve myself. 
             I'm currently looking for my next challenge so feel free to reach out to me any time.</h3>
             <div className='icons'>
-                <a href="mailto:arieka39@gmail.com"><i className="far fa-envelope icons__color"></i></a>
-                <a href="https://www.linkedin.com/in/arie-levental/"><i className="fab fa-linkedin-in icons__color"></i></a>
+                <div className="icons__circle"> <a href="mailto:arieka39@gmail.com"><i className="far fa-envelope icons__color"></i></a></div>
+                <div className="icons__circle"> <a href="https://www.linkedin.com/in/arie-levental/"><i className="fab fa-linkedin-in icons__color"></i></a></div>
             </div>
         </div>
     );

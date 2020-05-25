@@ -1,5 +1,5 @@
 .footer {
-    background-color: #e7e7e7;
+    background-color: #dbd9d9;
     margin-top: 2rem;
     height: 40px;
     display: flex;
@@ -9,6 +9,7 @@
     overflow: hidden;
     position: fixed;
     bottom: 0;
+    z-index: 10;
 }
 
 #copyrights {

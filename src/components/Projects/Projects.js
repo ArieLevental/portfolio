@@ -12,7 +12,8 @@ const Projects = () => {
             <div className="card-text">
               <span className="date">April 2020</span>
               <h2>Eagle-Eye</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+              <p id="project_1st">A React Web App for face-detection, using Clarifai's API. Equipped with a database, user authentication, and a ranking system.</p> 
+              <p id="project_2nd"><span>Used:</span> React.js, Node.js, Express.js, PostgreSQL, ClarifaiAPI, Bcrypt</p>
             </div>
             <div className="card-links">
               <div className="link">
@@ -31,7 +32,8 @@ const Projects = () => {
           <div className="card-text">
             <span className="date">February 2020</span>
             <h2>RoboFriends</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+            <p id="project_1st">RoboFriends displays cards of robots with image, name and email. It fetches data from an API.</p>
+            <p id="project_2nd"><span>Used: </span> React.js, RESTful Api, Tachyons</p>
           </div>
           <div className="card-links">
             <div className="link">

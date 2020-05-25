@@ -1,5 +1,5 @@
 .contact {
-    margin: 0 7rem 3rem 7rem;
+    margin: 0 5vw 10vh 5vw;
     padding-top: 2rem;
 }
 
@@ -14,16 +14,29 @@ h3 {
 }
 
 .icons {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
 }
 
+.icons__circle {
+    width: 60px;
+    height: 60px;
+    background: #878a8f;
+    opacity: 0.8;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .fa-envelope {
-    font-size: 40px;
+    font-size: 25px;
+    font-weight: 500;
     transition: ease-in 0.1s;
     z-index: 3;
+    line-height: 60px;
 }
 
 .fa-envelope:hover {
@@ -32,9 +45,10 @@ h3 {
 }
 
 .fa-linkedin-in {
-    font-size: 40px;
+    font-size: 25px;
     transition: ease-in 0.1s;
     z-index: 3;
+    line-height: 60px;
 }
 
 .fa-linkedin-in:hover {
@@ -43,5 +57,5 @@ h3 {
 }
 
 .icons__color {
-    color: black;
+    color: white;
 }

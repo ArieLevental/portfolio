@@ -19,6 +19,11 @@ const Picture = () => {
             Hands-on a wide range of technologies and platforms:
             JaveScript, CSS, HTML, React, Redux, PostgreSQL, Node.js and Adobe Photoshop.</p>
       </div>
+      <div className="scroll__icon">
+        <div className="wheel__icon">
+          <div className="mouse__icon"></div>
+        </div>
+      </div>
     </div>
   );
 }
