@@ -103,11 +103,6 @@
 .menu-wrap .hamburger > div::after {
     top: 7px;
 }
-
-.menu-wrap .toggler:hover + .hamburger {
-    /* opacity: 0.8; */
-    /* letter-spacing: 2px; */
-} 
   
 /* Toggler Animation */
 .menu-wrap .toggler:checked + .hamburger > div {
@@ -117,7 +112,7 @@
 
 .menu-wrap .hamburger > p {
     margin-left: 6px;
-    transition: ease-in 0.4s;
+    transition: ease-in 0.2s;
 }
 
 .menu-wrap .toggler:checked + .hamburger > p {
@@ -220,8 +215,15 @@
     text-decoration: none;
 }
 
+@media only screen and (min-width: 769px) {
+    .menu-wrap .toggler:hover + .hamburger {
+        opacity: 0.8;
+        letter-spacing: 4px;
+    } 
+}
+
 @media only screen and (max-width: 350px) {
     .logo img {
         min-width: 200px;
     }
-  }
+}
