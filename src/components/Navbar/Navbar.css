@@ -220,4 +220,8 @@
     text-decoration: none;
 }
 
-
+@media only screen and (max-width: 350px) {
+    .logo img {
+        min-width: 200px;
+    }
+  }
