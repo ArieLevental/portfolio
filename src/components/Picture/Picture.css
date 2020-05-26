@@ -12,7 +12,7 @@
     flex-direction: column;
     margin: 0 5vw 0 5vw;
     z-index: -1;
-    height: 100vh;
+    height: auto;
 }
 
 .picture > img {
@@ -29,13 +29,14 @@
     height: auto;
     max-height: 460px;
     margin-top: 70px;
+    text-align: center;
 }
 
 .text {
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 20rem 0 0 0;
 }
 
@@ -111,6 +112,23 @@
     }
   }
 
+@media only screen and (max-width: 568px) {
+  #title {
+    font-size: 2.225rem;
+    line-height: 2.6rem;
+  }
+  #about {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .menu-wrap .hamburger > p {
+    visibility: hidden;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .logo img {
     min-width: 180px;
@@ -125,8 +143,3 @@
   }
 }
 
-@media only screen and (max-width: 380px) {
-  .intro {
-    height: auto;
-  }
-}
