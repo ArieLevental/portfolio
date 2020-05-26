@@ -129,9 +129,8 @@ grid-area: links;
   color: black;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   .card:hover {
     transform: none;
-    /* box-shadow: none; */
   }
 }
