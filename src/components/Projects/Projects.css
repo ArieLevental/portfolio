@@ -127,7 +127,13 @@ grid-area: links;
 
 @media only screen and (max-width: 800px) {
   .card {
-    margin:5px;
+    margin: 5px 5px 25px 5px;
+  }
+  .card:hover {
+    transform: scale(1.10);
+  }
+  .cards {
+    margin-top: 2rem;
   }
 }
 
