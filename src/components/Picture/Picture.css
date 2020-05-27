@@ -3,10 +3,6 @@
     src: local('HelveticaNowDisplay-Regular'), url(./HelveticaNowDisplay-Regular.ttf) format('truetype');
 }
 
-*{
-    margin: 0;
-}
-
 .intro {
     display: flex;
     flex-direction: column;
@@ -124,22 +120,16 @@
   }
   .text {
     width: 80%;
+    margin: 25rem 0 0 0;
   }
 }
 
 @media only screen and (min-width: 569px) {
   .picture > img {
     max-height: 650px;
-    margin-left: 140px;
+    padding-left: 140px;
   }
 }
-
-/* @media only screen and (min-width: 769px) {
-  .picture > img {
-    max-height: 700px;
-    margin-left: 150px;
-  }
-} */
 
 @media only screen and (max-width: 568px) {
   #title {
@@ -155,6 +145,7 @@
   }
   .text {
     width: 90%;
+    margin: 20rem 0 0 0;
   }
 }
 

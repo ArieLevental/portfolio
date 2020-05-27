@@ -8,10 +8,10 @@ const Navbar = () => {
       <div className="logo">
         <img src={myLogo} alt=" " width="350" height="70" />
       </div>
-      <div class="menu-wrap">
-        <input type="checkbox" class="toggler" />
-        <div class="hamburger"><p>Menu</p><div></div></div>
-          <div class="menu">
+      <div className="menu-wrap">
+        <input type="checkbox" className="toggler" />
+        <div className="hamburger"><p>Menu</p><div></div></div>
+          <div className="menu">
             <div>
               <div>
                 <ul>
