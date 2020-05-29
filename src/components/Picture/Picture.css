@@ -113,10 +113,31 @@
   }
 }
 
+@media only screen and (min-height: 1100px) and (max-width: 1024px) {
+  .picture > img {
+    max-height: 1000px;
+  }
+  .text {
+    margin: 60vh 0 0 0;
+  }
+  #title {
+    font-size: 3.875rem;
+    line-height: 4.0625rem;
+  }
+  #about {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .picture > img {
+    max-height: 700px;
+    padding-left: 120px;
+  }
   .text {
     width: 80%;
-    margin: 25rem 0 0 0;
+    margin: 50vh 0 0 0;
   }
   #title {
     font-size: 3.225rem;
@@ -128,10 +149,10 @@
   }
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 480px) {
   .picture > img {
-    max-height: 500px;
-    padding-left: 0px;
+    max-height: 400px;
+    padding-left: 40px;
   }
   .text {
     width: 90%;
@@ -149,12 +170,12 @@
 
 @media only screen and (max-width: 320px) {
   #title {
-    font-size: 1.825rem;
-    line-height: 2.1rem;
+    font-size: 2rem;
+    line-height: 2.35rem;
   }
   #about {
-    font-size: 1rem;
-    line-height: 1.2625rem;
+    font-size: 1.1rem;
+    line-height: 1.35rem;
   }
 }
 
