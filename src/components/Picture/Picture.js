@@ -7,7 +7,7 @@ const Picture = () => {
     <div className='intro'>
       <p id="about__me__p"></p>
       <div className="picture">
-        <img src={myPicture} alt=" " width="auto" height="auto" />
+        <img src={myPicture} alt=" " width=" " height=" " />
       </div>
       <div className="text">
           <p id="name">Arie Levental</p>
