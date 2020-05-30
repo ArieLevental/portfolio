@@ -18,6 +18,7 @@ const Navbar = () => {
                   <li className="about__me"><a href="#about__me__p">About Me</a></li>
                   <li className="my__projects"><a href="#my__projects_p">Projects</a></li>
                   <li className="contact__me"><a href="#contact__me__p">Contact</a></li>
+                  <li className="resume"><a href=" ">Resume </a><i className="fas fa-file-download fa-xs"></i></li>
                 </ul>
                 <p className="copyrights">© 2020 Arie Levental</p>  
               </div>

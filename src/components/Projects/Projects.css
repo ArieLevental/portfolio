@@ -25,6 +25,12 @@
     margin:30px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  cursor: none;
+}
+
 .card-image {
 grid-area: image;
 }
@@ -97,7 +103,6 @@ grid-area: links;
 
   .card-links .link:hover {
     opacity: 0.8;
-    cursor: pointer;
   }
 
   .card:hover {

@@ -41,6 +41,7 @@ h3 {
 .fa-envelope:hover {
     opacity: 0.8;
     font-size: 43px;
+    cursor: none;
 }
 
 .fa-linkedin-in {
@@ -53,6 +54,7 @@ h3 {
 .fa-linkedin-in:hover {
     opacity: 0.8;
     font-size: 43px;
+    cursor: none;
 }
 
 .icons__color {

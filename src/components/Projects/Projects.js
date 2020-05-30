@@ -18,11 +18,11 @@ const Projects = () => {
             <div className="card-links">
               <div className="link">
                 <div className="value"><i className="fab fa-github card__icons"></i></div>
-                <div className="type">See Code</div>
+                <div className="type"><a href="https://github.com/AverageLeo/eagle-vision">See Code</a></div>
               </div>
               <div className="link border">
                 <div className="value"><i className="fas fa-feather-alt card__icons"></i></div>
-                <div className="type">Live Demo</div>
+                <div className="type"><a href="https://eagle-vision.herokuapp.com/">Live Demo</a></div>
               </div>
             </div>
           </div>
@@ -38,11 +38,11 @@ const Projects = () => {
           <div className="card-links">
             <div className="link">
               <div className="value"><i className="fab fa-github card__icons"></i></div>
-              <div className="type">See Code</div>
+              <div className="type"><a href="https://github.com/AverageLeo/robofriends">See Code</a></div>
             </div>
             <div className="link border">
               <div className="value"><i className="fas fa-feather-alt card__icons"></i></div>
-              <div className="type">Live Demo</div>
+              <div className="type"><a href="https://averageleo.github.io/robofriends/">Live Demo</a></div>
             </div>
           </div>
         </div>
