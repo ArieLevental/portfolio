@@ -5,7 +5,8 @@
 
 html, body {
   scroll-behavior: smooth;
-  cursor: none;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
 }
 
 body {

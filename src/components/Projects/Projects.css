@@ -28,7 +28,7 @@
 a {
   text-decoration: none;
   color: black;
-  cursor: none;
+  cursor: pointer;
 }
 
 .card-image {

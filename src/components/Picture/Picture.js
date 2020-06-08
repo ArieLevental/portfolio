@@ -7,7 +7,7 @@ const Picture = () => {
     <div className='intro'>
       <div className="cursor"></div>
       <p id="about__me__p"></p>
-      <div className="picture">
+      <div className="picture lax" data-lax-opacity="0 1, 50 1, 550 0">
         <img src={myPicture} alt=" " width=" " height=" " />
       </div>
       <div className="text">
