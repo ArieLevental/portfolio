@@ -8,31 +8,32 @@
   flex-direction: column;
   margin: 0 5vw 0 5vw;
   z-index: -1;
-  height: auto;
+  height: 100vh;
+  width: 90vw;
 }
 
 .cursor {
-  width: 1rem;
-  height: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   z-index: 15;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  backdrop-filter: blur(2px);
-  border: 1px solid black;
-  
+  backdrop-filter: invert(1);
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 100;
 }
 
 .picture {
   display: block;
   position: absolute;
-  top: 0;
-  right: 0;
+  /* top: 0;
+  right: 0; */
   margin-top: 50px;
-  height: auto;
+  height: 100%;
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   z-index: 0;
 }
 
@@ -42,17 +43,17 @@
   right: 10vw;
   z-index: 1;
   max-width: 100%;
-  max-height: 900px;
-  padding-left: 140px;
+  max-height: 100%;
   height: auto;
 }
 
 .text {
   display: flex;
-  position: relative;
+  position: absolute;
+  bottom: 10vh;
   flex-direction: column;
   width: 50%;
-  margin: 28rem 0 0 0;
+  /* margin: 28rem 0 0 0; */
 }
 
 #name {
@@ -107,9 +108,12 @@
 }
 
 .scroll__icon {
+  position: absolute;
+  bottom: 5vh;
   margin-top: 20px;
   height: 5vh;
-  width: 100%; 
+  width: 3vh;
+  align-self: center;
 }
 
 .wheel__icon {
@@ -223,7 +227,7 @@
 @media only screen and (max-width: 480px) {
   .picture > img {
     max-height: 400px;
-    padding-left: 40px;
+    padding-left: 0px;
   }
   .text {
     width: 90%;
