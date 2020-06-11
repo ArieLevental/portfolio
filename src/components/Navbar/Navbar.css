@@ -195,6 +195,9 @@
 }
 
 .copyrights {
+  position: absolute;
+  align-self: center;
+  bottom: 3vh;
   height: 5%;
   color: rgba(255, 255, 255, 0.75);
   font-size: 0.75rem;
