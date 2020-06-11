@@ -11,6 +11,9 @@
 # production
 /build
 /firebase-debug.log
+/.firebaserc
+/.firebase
+/firebase.json
 
 # misc
 .DS_Store
