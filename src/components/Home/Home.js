@@ -5,12 +5,15 @@ import myPicture from './picture.png';
 const Home = () => {
   return (
     <div className='intro'>
+      <div className="marquee lax" data-lax-opacity="0 1, (document.body.scrollHeight*0.2) 0">
+       <span>DEVELOPER</span>
+      </div>
       <div className="cursor"></div>
       <p id="about__me__p"></p>
       <div className="picture lax" data-lax-opacity="0 1, (document.body.scrollHeight*0.2) 0">
         <img src={myPicture} alt="" />
       </div>
-      <div className="home-text lax" data-lax-scale="1, 1.5">
+      <div className="home-text">
         <p className="home-text-name">Arie Levental</p>
         <p className="home-text-title">Full-Stack <br /> Web Developer</p>
         <p className="home-text-about">Full Stack <span className="fancy__color">developer</span>, capable of developing <span className="fancy__color">web platforms</span> from scratch to production, with full responsiveness and preformance. 

@@ -3,6 +3,11 @@
   src: local('HelveticaNowDisplay-Regular'), url(./HelveticaNowDisplay-Regular.ttf) format('truetype');
 }
 
+:root {
+  --tw: 100vw;
+  --ad: 40.5s;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -10,6 +15,7 @@
   z-index: -1;
   height: 100vh;
   width: 90vw;
+  animation: home-loaded 1s linear;
 }
 
 .cursor {
@@ -38,6 +44,33 @@
   right: 60px;
   width: auto;
   height: 110%;
+}
+
+/* MARQUEE TEXT */
+
+.marquee {
+  position: fixed;
+  width: 90vw;
+  top: 5vh;
+  font-size: 16vw;
+}
+
+.marquee span {   
+   display: inline-block;
+   white-space: nowrap;
+   color: #f8f8f8;
+   width: var(--tw);
+   text-shadow: var(--tw) 0 currentColor, 
+   calc(var(--tw) * 2) 0 currentColor, 
+   calc(var(--tw) * 3) 0 currentColor,
+   calc(var(--tw) * 4) 0 currentColor;
+   will-change: transform;
+   animation: marquee var(--ad) linear infinite;
+}
+
+@keyframes marquee {
+   0% { transform: translateX(0); }
+   100% { transform: translateX(-100%); }
 }
 
 .home-text {
@@ -94,7 +127,16 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 250ms ease-in;
+  animation: home-loaded-fancy 1s ease-in-out;
+  animation-delay: 3s;
 }
+
+@keyframes home-loaded-fancy {
+  0% {transform: scaleX(0);}
+  50% {transform: scaleX(1);} 
+  100% {transform: scaleX(0);}
+}
+  
 
 .fancy__color:hover::after {
   transform: scaleX(1);
@@ -260,12 +302,20 @@
 }
 
 @media only screen and (max-width: 480px) {
+  :root {
+    --tw: 300vw;
+    --ad: 25s;
+  }
   .picture > img {
     height: auto;
     width: 110%;
     bottom: unset;
     top: 4vh;
     right: -40px;
+  }
+  .marquee {
+    top: 20vh;
+    font-size: 50vw;
   }
   .home-text {
     width: 90%;
@@ -284,6 +334,10 @@
   }
   .scroll__icon {
     display: none;
+  }
+  .fancy__color::after {
+    height: 1px;
+    bottom: -3px;
   }
 }
 
@@ -322,4 +376,11 @@
   }
 }
 
+@keyframes home-loaded {
+  0%, 40% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
+}
 
