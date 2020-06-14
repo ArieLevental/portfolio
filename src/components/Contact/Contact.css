@@ -54,14 +54,7 @@ ul {
   text-align: center;
   margin: 0 0 1rem 0;
 }
-.alert {
-  text-align: center;
-  padding: 10px;
-  background: #79c879;
-  color: #fff;
-  margin-bottom: 10px;
-  display: none;
-}
+
 .contact-text-area {
   background: #fff;
 }
@@ -127,6 +120,16 @@ ul {
   .brand {
     text-align: left;
   }
+}
+
+.submit-success {
+  background: #79c879;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+  font: 400 13.3333px Arial;
+  text-transform: uppercase;
 }
 
 @media (max-width: 508px) {
