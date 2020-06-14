@@ -79,7 +79,7 @@ $marqueeAD: 10.5s;
 .marquee {
 	position: fixed;
 	width: 90vw;
-	top: 5vh;
+	top: calc(100px + 5vh);
 	font-size: 16vw;
 	span {
 		display: inline-block;
@@ -200,6 +200,16 @@ $marqueeAD: 10.5s;
 		background: linear-gradient(transparent, #3a3a3a);
 	}
 }
+@media only screen and (min-width: 1130px) {
+	.intro {
+        min-height: 800px;
+    }
+    .picture {
+		>img {
+			top: 0;
+		}
+	}
+}
 @media only screen and (max-width: 1400px) {
 	.picture {
 		>img {
@@ -220,6 +230,24 @@ $marqueeAD: 10.5s;
 			right: -15px;
 		}
 	}
+}
+@media only screen and (max-width: 1100px) {
+	.picture {
+		>img {
+			right: -50px;
+		}
+	}
+    .home-text {
+        width: 55%;
+        bottom: 15vh;
+    }
+}
+@media only screen and (max-width: 1000px) {
+	.picture {
+		>img {
+			right: -90px;
+		}
+    }
 }
 @media only screen and (min-height: 1100px) and (max-width: 1024px) {
 	.picture {
