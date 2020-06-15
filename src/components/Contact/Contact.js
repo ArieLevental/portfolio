@@ -30,13 +30,15 @@ class Contact extends React.Component {
                 <h3>Arie Levental</h3>
                 <ul>
                   <li>
-                    <i className="fa fa-road"></i> Israel, Jerusalem / Tel-Aviv
+                    <i className="fa fa-home"></i>&nbsp; Israel, Jerusalem /
+                    Tel-Aviv
                   </li>
                   <li>
-                    <i className="fa fa-phone"></i> (972) 55-666-5679
+                    <i className="fa fa-phone"></i>&nbsp; Leave your number and
+                    I'll call you
                   </li>
                   <li>
-                    <i className="fa fa-envelope"></i> Arieka39@gmail.com
+                    <i className="fa fa-envelope"></i>&nbsp; Arieka39@gmail.com
                   </li>
                 </ul>
               </div>
