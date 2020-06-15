@@ -16,6 +16,11 @@
   margin-bottom: 2rem;
 }
 
+.projects-text h3 {
+  color: #72797c;
+  line-height: 1.6rem;
+}
+
 .cards {
   display: flex;
   flex-direction: row-reverse;
