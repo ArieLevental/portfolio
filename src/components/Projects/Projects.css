@@ -1,6 +1,7 @@
 .projects {
   margin: 0 5vw 0 5vw;
   padding-top: 2rem;
+  position: relative;
 }
 
 .cards {

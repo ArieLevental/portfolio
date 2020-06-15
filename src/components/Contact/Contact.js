@@ -74,7 +74,9 @@ class Contact extends React.Component {
                   {status === "SUCCESS" ? (
                     <p className="submit-success full">I got your messege!</p>
                   ) : (
-                    <button className="full">Submit</button>
+                    <button className="full">
+                      Send me something interesting!
+                    </button>
                   )}
                   {status === "ERROR" && <p>Ooops! There was an error.</p>}
                 </form>

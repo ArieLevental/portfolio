@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src={myLogo} alt=" " width="350" height="70" />
+        <a href="/">
+          <img src={myLogo} alt=" " width="350" height="70" />
+        </a>
       </div>
       <div className="menu-wrap">
         <input type="checkbox" className="toggler" />

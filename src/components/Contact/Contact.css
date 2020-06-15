@@ -16,6 +16,7 @@
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   padding-bottom: 5rem;
   padding-top: 0rem;
+  position: relative;
 }
 
 .contact {
@@ -110,6 +111,7 @@
 .contact-text-area form button,
 .contact-text-area form input,
 .contact-text-area form textarea {
+  font: inherit;
   width: 100%;
   padding: 1em;
   border: 1px solid #ebebeb;
@@ -124,10 +126,10 @@
 
 .contact-text-area form button:hover,
 .contact-text-area form button:focus {
-  background: #b8b7b7;
+  background: rgba(214, 211, 211, 0.3);
   color: #fff;
   outline: 0;
-  transition: background-color 1s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 
 /* LARGE SCREENS */
@@ -154,7 +156,7 @@
   text-align: center;
   width: 100%;
   padding: 1em;
-  font: 400 13.3333px Arial;
+  font: inherit 400 13.3333px;
   text-transform: uppercase;
   border-radius: 18px;
 }
@@ -175,5 +177,13 @@
 @media (max-width: 508px) {
   li {
     font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-text-area form button,
+  .contact-text-area form input,
+  .contact-text-area form textarea {
+    font-size: 0.9rem;
   }
 }
