@@ -1,5 +1,27 @@
+.contact-section {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  padding-bottom: 5rem;
+  padding-top: 0rem;
+}
+
 .contact {
-  margin: 3rem 5vw 5rem 5vw;
+  margin: 5rem 5vw 0 5vw;
+  padding-top: 4rem;
+  color: white;
 }
 
 .contact-text {
@@ -7,10 +29,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 .contact-text h3 {
-  color: #878a8f;
+  color: #a1a4a8;
   line-height: 1.6rem;
 }
 
@@ -20,7 +43,7 @@
   padding-top: 2px;
   padding-bottom: 3px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.241);
+  color: rgba(255, 255, 255, 0.07);
   letter-spacing: normal;
 }
 
@@ -31,13 +54,14 @@
   padding: 1em;
 }
 
-ul {
+.contact-info ul {
   list-style: none;
   padding: 0;
+  line-height: 2rem;
 }
 
 .wrapper {
-  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  /* box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7); */
   min-width: 238px;
 }
 
@@ -46,7 +70,7 @@ ul {
 }
 
 .contact-info {
-  background: linear-gradient(#dbd9d9, #fff);
+  /* background: linear-gradient(#dbd9d9, #fff); */
 }
 
 .contact-info h3,
@@ -56,7 +80,7 @@ ul {
 }
 
 .contact-text-area {
-  background: #fff;
+  /* background: #fff; */
 }
 
 .contact-text-area h3 {
@@ -68,6 +92,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  line-height: 2rem;
 }
 
 .contact-text-area form label {
@@ -87,11 +112,12 @@ ul {
 .contact-text-area form textarea {
   width: 100%;
   padding: 1em;
-  border: 1px solid #dbd9d9;
+  border: 1px solid #ebebeb;
+  border-radius: 18px;
 }
 
 .contact-text-area form button {
-  background: #dbd9d9;
+  background: rgba(214, 211, 211, 0.5);
   border: 0;
   text-transform: uppercase;
 }
@@ -123,13 +149,14 @@ ul {
 }
 
 .submit-success {
-  background: #79c879;
+  background: rgba(129, 199, 101, 0.5);
   color: #fff;
   text-align: center;
   width: 100%;
   padding: 1em;
   font: 400 13.3333px Arial;
   text-transform: uppercase;
+  border-radius: 18px;
 }
 
 @media (max-width: 508px) {
