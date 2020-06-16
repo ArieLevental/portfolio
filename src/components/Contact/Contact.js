@@ -48,6 +48,7 @@ class Contact extends React.Component {
                   onSubmit={this.submitForm}
                   action="https://formspree.io/maypjazw"
                   method="POST"
+                  autoComplete="off"
                 >
                   <p>
                     <label>Name</label>

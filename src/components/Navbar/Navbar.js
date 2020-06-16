@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="header">
       <div className="logo">
         <a href="/">
-          <img src={myLogo} alt=" " width="350" height="70" />
+          <img src={myLogo} alt="logo" width="350" height="70" />
         </a>
       </div>
       <div className="menu-wrap">

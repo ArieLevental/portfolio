@@ -103,6 +103,14 @@
   border-radius: 18px;
 }
 
+.contact-text-area form input:focus,
+.contact-text-area form select:focus,
+.contact-text-area form textarea:focus,
+.contact-text-area form button:focus {
+  outline: none;
+  opacity: 0.9;
+}
+
 .contact-text-area form button {
   background: rgba(214, 211, 211, 0.5);
   border: 0;
