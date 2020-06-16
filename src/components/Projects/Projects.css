@@ -65,7 +65,7 @@ a {
 
 .card-image {
   grid-area: image;
-  background: url("https://i.gyazo.com/999580b3925e965193912c487ca95fd1.png");
+  background: url("eaglevision.png");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -75,7 +75,7 @@ a {
 
 .card-image2 {
   grid-area: image;
-  background: url("https://i.gyazo.com/70371e434f8f10cd507fec1f90b5c09d.png");
+  background: url("robofriends.png");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -152,7 +152,7 @@ a {
 
 @media only screen and (max-width: 800px) {
   .card {
-    margin: 5px 5px 25px 5px;
+    margin: 25px 5px 25px 5px;
   }
   .card:hover {
     transform: scale(1.1);
