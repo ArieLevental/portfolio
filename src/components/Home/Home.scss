@@ -4,6 +4,7 @@ $marqueeAD: 10.5s;
   font-family: "Helvetica Now Display Regular";
   src: local("HelveticaNowDisplay-Regular"),
     url(./HelveticaNowDisplay-Regular.ttf) format("truetype");
+  font-display: swap;
 }
 /* MARQUEE TEXT */
 @keyframes marquee {
