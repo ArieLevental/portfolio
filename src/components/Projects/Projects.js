@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import next from "./next.png";
 
 const Projects = () => {
   return (
@@ -14,75 +15,80 @@ const Projects = () => {
           </h3>
         </div>
         <div className="cards">
-          <div className="card">
-            <div className="card-image"></div>
-            <div className="card-text">
-              <span className="date">April 2020</span>
-              <h2>Eagle-Eye</h2>
-              <p id="project-card-text">
-                A React Web App for face-detection, using Clarifai's API.
-                Equipped with a database, user authentication, and a ranking
-                system.
-              </p>
-              <p id="project-card-tech">
-                <span>Used:</span> React.js, Node.js, Express.js, PostgreSQL,
-                ClarifaiAPI, Bcrypt
-              </p>
+          <div className="card eagle-vision">
+            <div className="enter-icon">
+              <img src={next} alt="" />
             </div>
-            <div className="card-links">
-              <div className="link">
-                <div className="value">
-                  <i className="fab fa-github card__icons"></i>
+            <div className="card-bg">
+              <div className="card-text">
+                <h1>Eagle-Vision</h1>
+                <h3>
+                  A React Web App for face-detection, using Clarifai's API.
+                  Equipped with a database, user authentication, and a ranking
+                  system.
+                </h3>
+                <div className="project-techs">
+                  <span>React.js</span>
+                  <span>Node.js</span>
+                  <span>Express.js</span>
+                  <span>PostgreSQL</span>
+                  <span>Bcrypt</span>
+                  <span>ClarifaiAPI</span>
                 </div>
-                <div className="type">
-                  <a href="https://github.com/AverageLeo/eagle-vision">
-                    See Code
-                  </a>
-                </div>
-              </div>
-              <div className="link border">
-                <div className="value">
-                  <i className="fas fa-feather-alt card__icons"></i>
-                </div>
-                <div className="type">
+                <div className="project-buttons">
                   <a href="https://eagle-vision.herokuapp.com/">Live Demo</a>
+                  <a href="https://github.com/AverageLeo/eagle-vision">
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-
-          <div className="card">
-            <div className="card-image2"></div>
-            <div className="card-text">
-              <span className="date">February 2020</span>
-              <h2>RoboFriends</h2>
-              <p id="project-card-text">
-                RoboFriends displays cards of robots with image, name and email.
-                It fetches data from an API.
-              </p>
-              <p id="project-card-tech">
-                <span>Used: </span> React.js, RESTful Api, Tachyons
-              </p>
+          <div className="card robofriends">
+            <div className="enter-icon">
+              <img src={next} alt="" />
             </div>
-            <div className="card-links">
-              <div className="link">
-                <div className="value">
-                  <i className="fab fa-github card__icons"></i>
+            <div className="card-bg">
+              <div className="card-text">
+                <h1>RoboFriends</h1>
+                <h3>
+                  RoboFriends displays cards of robots with image, name and
+                  email. It fetches data from an API.
+                </h3>
+                <div className="project-techs">
+                  <span>React.js</span>
+                  <span>RESTful Api</span>
+                  <span>Tachyons</span>
                 </div>
-                <div className="type">
-                  <a href="https://github.com/AverageLeo/robofriends">
-                    See Code
-                  </a>
-                </div>
-              </div>
-              <div className="link border">
-                <div className="value">
-                  <i className="fas fa-feather-alt card__icons"></i>
-                </div>
-                <div className="type">
+                <div className="project-buttons">
                   <a href="https://averageleo.github.io/robofriends/">
                     Live Demo
                   </a>
+                  <a href="https://github.com/AverageLeo/robofriends">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card portfolio">
+            <div className="enter-icon">
+              <img src={next} alt="" />
+            </div>
+            <div className="card-bg">
+              <div className="card-text">
+                <h1>Personal Porfolio</h1>
+                <h3>
+                  My Portfolio, built from scratch to showcase my design
+                  abilities and my experiance. Full competability for desktop,
+                  tablet and mobile devices. Much fun.
+                </h3>
+                <div className="project-techs">
+                  <span>React.js</span>
+                  <span>Sass</span>
+                  <span>Firebase</span>
+                </div>
+                <div className="project-buttons">
+                  <a href="https://arielevental.com/">Live Demo</a>
+                  <a href="https://github.com/AverageLeo/portfolio">GitHub</a>
                 </div>
               </div>
             </div>

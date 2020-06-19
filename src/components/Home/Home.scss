@@ -403,10 +403,37 @@ $marqueeAD: 10.5s;
     bottom: 45px;
   }
 }
-@media only screen and (min-height: 650px) and (max-width: 340px) {
+@media only screen and (min-height: 650px) and (max-width: 360px) {
   .picture {
     > img {
       top: 10vh;
     }
+  }
+}
+
+@media only screen and (max-height: 630px) and (max-width: 400px) {
+  .picture {
+    > img {
+      width: 100%;
+    }
+  }
+  .home-text-title {
+    font-size: 2.1rem;
+    line-height: 2rem;
+  }
+  .home-text-about {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media only screen and (max-height: 530px) and (max-width: 400px) {
+  .home-text-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .home-text-about {
+    font-size: 0.9rem;
+    line-height: 1rem;
   }
 }

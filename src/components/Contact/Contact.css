@@ -1,5 +1,6 @@
 .contact-section {
   background-color: #0d0d0d;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   padding-bottom: 5rem;
   position: relative;
 }
@@ -47,7 +48,6 @@
 }
 
 .wrapper {
-  /* box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7); */
   min-width: 238px;
 }
 
@@ -55,18 +55,10 @@
   padding: 1em;
 }
 
-.contact-info {
-  /* background: linear-gradient(#dbd9d9, #fff); */
-}
-
 .contact-info h3,
 .contact-info ul {
   text-align: center;
   margin: 0 0 1rem 0;
-}
-
-.contact-text-area {
-  /* background: #fff; */
 }
 
 .contact-text-area h3 {
