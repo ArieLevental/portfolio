@@ -1,6 +1,7 @@
 .contact-section {
   background-color: #0d0d0d;
-  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
   padding-bottom: 5rem;
   position: relative;
 }
