@@ -210,10 +210,6 @@
   transition: ease-in 0.2s;
 }
 
-.resume {
-  opacity: 0.4;
-}
-
 .menu-wrap .menu > div > div > ul > li:hover {
   opacity: 0.4;
 }

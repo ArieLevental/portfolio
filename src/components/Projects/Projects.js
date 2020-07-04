@@ -78,7 +78,7 @@ const Projects = () => {
                 <h1>Personal Porfolio</h1>
                 <h3>
                   My Portfolio, built from scratch to showcase my design
-                  abilities and my experiance. Full competability for desktop,
+                  abilities and my experience. Full compatibility for desktop,
                   tablet and mobile devices. Much fun.
                 </h3>
                 <div className="project-techs">

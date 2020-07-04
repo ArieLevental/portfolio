@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import myLogo from "./Logo.png";
+import Resume from "./Arie Levental Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -30,7 +31,14 @@ const Navbar = () => {
                   <a href="#contact__me__p">Contact</a>
                 </li>
                 <li className="resume">
-                  <a href=" ">Resume </a>
+                  <a
+                    href={Resume}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download
+                  >
+                    Resume{" "}
+                  </a>
                   <i className="fas fa-file-download fa-xs"></i>
                 </li>
               </ul>
