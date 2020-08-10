@@ -208,6 +208,7 @@
     margin-top: 15%;
   }
   .project-buttons a {
+    font-size: 15px;
     padding: 12px;
     margin: 1.5em;
   }
@@ -229,6 +230,7 @@
     margin-top: 10%;
   }
   .project-buttons a {
+    font-size: 14px;
     padding: 8px;
     margin: 1em;
   }
@@ -273,7 +275,7 @@
     margin-top: 1.2em;
   }
   .project-buttons a {
-    font-size: 15px;
+    font-size: 12px;
     padding: 7px;
     margin: 0.8em;
   }
