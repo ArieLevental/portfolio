@@ -87,6 +87,12 @@
 .portfolio {
   background-image: url(portfolio.jpg);
 }
+.mcdownloads {
+  background-image: url(mcdownloads.jpg);
+}
+.fruitty {
+  background-image: url(fruitty.jpg);
+}
 .card-bg {
   position: relative;
   color: white;
