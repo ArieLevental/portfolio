@@ -42,7 +42,7 @@ const Navbar = () => {
                   <i className="fas fa-file-download fa-xs"></i>
                 </li>
               </ul>
-              <p className="copyrights">© 2020 Arie Levental</p>
+              <p className="copyrights">© 2022 Arie Levental</p>
             </div>
           </div>
         </div>

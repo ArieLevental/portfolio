@@ -19,8 +19,7 @@ class Contact extends React.Component {
           <div className="contact-text">
             <h1>Contact</h1>
             <h3>
-              I'm eager to learn new things and improve myself. I'm currently
-              looking for my next challenge so feel free to reach out to me any
+              I'm eager to learn new things and improve myself. Feel free to reach out to me any
               time.
             </h3>
           </div>

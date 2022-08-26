@@ -32,8 +32,14 @@ const Home = () => {
           <span className="fancy__color">designing</span> and developing both
           Back-End and Front-End.
           <br />
-          Hands-on a wide range of technologies and platforms: JaveScript, CSS,
-          HTML, React, Redux, PostgreSQL, Node.js and Adobe Photoshop.
+          Hands-on a wide range of technologies and platforms: JaveScript, React, Redux, PostgreSQL, Node.js etc.
+          <br />
+          Currently a <span className="fancy__color">Computer-Science</span> studnent in&nbsp; 
+          <a href="https://www.shanghairanking.com/institution/the-hebrew-university-of-jerusalem"
+             target="_blank"
+             rel="noopener noreferrer"
+             style={{textDecoration: "none", color: "#878a8f"}}>
+          The Hebrew University of Jerusalem</a>.
         </p>
       </div>
       <div className="scroll__icon">

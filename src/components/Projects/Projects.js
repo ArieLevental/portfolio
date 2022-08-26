@@ -45,7 +45,7 @@ const Projects = () => {
                     Live Demo
                   </a>
                   <a
-                    href="https://github.com/AverageLeo/eagle-vision"
+                    href="https://github.com/ArieLevental/eagle-vision"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -79,7 +79,7 @@ const Projects = () => {
                 <div className="project-buttons">
                   <a>Live Demo - Soon</a>
                   <a
-                    href="https://github.com/AverageLeo/fruitty"
+                    href="https://github.com/ArieLevental/fruitty"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -104,6 +104,7 @@ const Projects = () => {
                 <div className="project-techs">
                   <span>React.js</span>
                   <span>Sass</span>
+                  <span>Media Queries</span>
                   <span>Firebase</span>
                 </div>
                 <div className="project-buttons">
@@ -115,7 +116,7 @@ const Projects = () => {
                     Live Demo
                   </a>
                   <a
-                    href="https://github.com/AverageLeo/portfolio"
+                    href="https://github.com/ArieLevental/portfolio"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -144,7 +145,7 @@ const Projects = () => {
                 <div className="project-buttons">
                   <a href="/">Live Demo - Soon</a>
                   <a
-                    href="https://github.com/AverageLeo/McDownloads"
+                    href="https://github.com/ArieLevental/McDownloads"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -172,14 +173,14 @@ const Projects = () => {
                 </div>
                 <div className="project-buttons">
                   <a
-                    href="https://averageleo.github.io/robofriends/"
+                    href="https://ArieLevental.github.io/robofriends/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Live Demo
                   </a>
                   <a
-                    href="https://github.com/AverageLeo/robofriends"
+                    href="https://github.com/ArieLevental/robofriends"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
