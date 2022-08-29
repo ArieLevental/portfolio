@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import myLogo from "./Logo.png";
-import Resume from "./Arie Levental Resume.pdf";
+// import Resume from "./Arie Levental Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -32,12 +32,12 @@ const Navbar = () => {
                 </li>
                 <li className="resume">
                   <a
-                    href={Resume}
+ //                   href={Resume}
                     target="_blank"
                     rel="noopener noreferrer"
                     download
                   >
-                    Resume{" "}
+                    Resume - Currently Unavailable{" "}
                   </a>
                   <i className="fas fa-file-download fa-xs"></i>
                 </li>

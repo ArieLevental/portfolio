@@ -32,13 +32,13 @@ class Contact extends React.Component {
                     <i className="fa fa-home"></i>&nbsp; Israel, Jerusalem /
                     Tel-Aviv
                   </li>
-                  <li>
-                    <i className="fa fa-phone"></i>&nbsp; Leave your number and
-                    I'll call you
+{/*                  <li>
+                    <i className="fa fa-phone"></i>&nbsp; Private
                   </li>
                   <li>
-                    <i className="fa fa-envelope"></i>&nbsp; Arieka39@gmail.com
+                    <i className="fa fa-envelope"></i>&nbsp; Private
                   </li>
+    */}
                 </ul>
               </div>
               <div className="contact-text-area">
