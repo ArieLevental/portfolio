@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">
-<img src="https://github.com/ArieLevental/portfolio/blob/master/public/android-chrome-192x192.png?raw=true" width="100" />
+<img src="https://github.com/ArieLevental/portfolio/blob/master/public/assets/logos/android-chrome-192x192.png?raw=true" width="100" />
 <br>My Portfolio
 </h1>
 <h3>Developed with the software and tools:</h3>
