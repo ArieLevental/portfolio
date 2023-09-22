@@ -1,75 +1,54 @@
 .footer {
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100%;
-    bottom: 0;
-    margin-top: 2rem;
-    background-color: #dbd9d9;
-    z-index: 9;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  margin-top: 2rem;
+  background-color: #dbd9d9;
+  z-index: 9;
 }
 
-#copyrights {
-    font-size: small;
-    font-family: 'Helvetica Now Display Regular';
-    font-weight: 500;
+.footer-copyrights {
+  font-size: small;
+  font-family: "Helvetica Now Display Regular";
+  font-weight: 500;
 }
 
-#icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 130px;
-    height: 25px;
-    margin-left: 30px;
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+  height: 100%;
+  margin-left: 30px;
 }
 
-.another{
-    font-size: 20px;
-    color: gray;
-    transition: 0.3s;
+.footer-icon {
+  font-size: var(--font-size);
+  color: var(--color);
+  transition: var(--transition);
+}
+
+.footer-icon:hover {
+  font-size: var(--hover-font-size);
+  transform: rotate(360deg);
 }
 
 .another:hover {
-    font-size: 28px;
-    color: black;
-    transform: rotate(360deg);
-}
-
-.fa-linkedin{
-    font-size: 20px;
-    color: gray;
-    transition: 0.3s;
+  color: var(--hover-color);
 }
 
 .fa-linkedin:hover {
-    font-size: 28px;
-    color: #0077b5;
-    transform: rotate(360deg);
-}
-
-.fa-facebook{
-    font-size: 20px;
-    color: gray;
-    transition: 0.3s;
+  color: var(--linkedin-color);
 }
 
 .fa-facebook:hover {
-    font-size: 28px;
-    color: #3b5998;
-    transform: rotate(360deg);
-}
-
-.fa-twitter{
-    font-size: 20px;
-    color: gray;
-    transition: 0.3s;
+  color: var(--facebook-color);
 }
 
 .fa-twitter:hover {
-    font-size: 28px;
-    color: #00acee;
-    transform: rotate(360deg);
+  color: var(--twitter-color);
 }

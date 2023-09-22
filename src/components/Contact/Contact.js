@@ -19,8 +19,8 @@ class Contact extends React.Component {
           <div className="contact-text">
             <h1>Contact</h1>
             <h3>
-              I'm eager to learn new things and improve myself. Feel free to reach out to me any
-              time.
+              I'm excited to expand my knowledge and grow. Don't hesitate to
+              contact me whenever!
             </h3>
           </div>
           <div className="container">
@@ -32,13 +32,6 @@ class Contact extends React.Component {
                     <i className="fa fa-home"></i>&nbsp; Israel, Jerusalem /
                     Tel-Aviv
                   </li>
-{/*                  <li>
-                    <i className="fa fa-phone"></i>&nbsp; Private
-                  </li>
-                  <li>
-                    <i className="fa fa-envelope"></i>&nbsp; Private
-                  </li>
-    */}
                 </ul>
               </div>
               <div className="contact-text-area">
@@ -74,13 +67,15 @@ class Contact extends React.Component {
                     ></textarea>
                   </p>
                   {status === "SUCCESS" ? (
-                    <p className="submit-success full">I got your messege!</p>
+                    <p className="submit-success full">
+                      I received your message!
+                    </p>
                   ) : (
                     <button className="full">
                       Send me something interesting!
                     </button>
                   )}
-                  {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                  {status === "ERROR" && <p>Whoopsie! Error alert!</p>}
                 </form>
               </div>
             </div>

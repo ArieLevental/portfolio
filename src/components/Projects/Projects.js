@@ -1,6 +1,4 @@
-import React from "react";
 import "./Projects.css";
-import next from "./next.png";
 
 const Projects = () => {
   return (
@@ -17,7 +15,7 @@ const Projects = () => {
         <div className="cards">
           <div className="card eagle-vision">
             <div className="enter-icon">
-              <img src={next} alt="" />
+              <img src="/assets/images/next.png" alt="" />
             </div>
             <div className="card-bg">
               <div className="card-text">
@@ -57,7 +55,7 @@ const Projects = () => {
           </div>
           <div className="card fruitty">
             <div className="enter-icon">
-              <img src={next} alt="" />
+            <img src="/assets/images/next.png" alt="" />
             </div>
             <div className="card-bg">
               <div className="card-text">
@@ -91,7 +89,7 @@ const Projects = () => {
           </div>
           <div className="card portfolio">
             <div className="enter-icon">
-              <img src={next} alt="" />
+            <img src="/assets/images/next.png" alt="" />
             </div>
             <div className="card-bg">
               <div className="card-text">
@@ -128,7 +126,7 @@ const Projects = () => {
           </div>
           <div className="card mcdownloads">
             <div className="enter-icon">
-              <img src={next} alt="" />
+            <img src="/assets/images/next.png" alt="" />
             </div>
             <div className="card-bg">
               <div className="card-text">
@@ -157,7 +155,7 @@ const Projects = () => {
           </div>
           <div className="card robofriends">
             <div className="enter-icon">
-              <img src={next} alt="" />
+            <img src="/assets/images/next.png" alt="" />
             </div>
             <div className="card-bg">
               <div className="card-text">

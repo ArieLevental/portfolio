@@ -1,6 +1,4 @@
-import React from "react";
 import "./Home.scss";
-import myPicture from "./picture.png";
 
 const Home = () => {
   return (
@@ -17,7 +15,7 @@ const Home = () => {
         className="picture lax"
         data-lax-opacity="0 1, (document.body.scrollHeight*0.2) 0"
       >
-        <img src={myPicture} alt="" />
+        <img src="/assets/images/portrait.png" alt="" />
       </div>
       <div className="home-text">
         <p className="home-text-name">Arie Levental</p>
@@ -27,19 +25,27 @@ const Home = () => {
         <p className="home-text-about">
           Full Stack <span className="fancy__color">developer</span>, capable of
           developing <span className="fancy__color">web platforms</span> from
-          scratch to production, with full responsiveness and preformance.
+          scratch to production, with full responsiveness and performance.
           <br />I focus on planning,{" "}
           <span className="fancy__color">designing</span> and developing both
           Back-End and Front-End.
           <br />
-          Hands-on a wide range of technologies and platforms: JaveScript, React, Redux, PostgreSQL, Node.js etc.
+          Hands-on a wide range of technologies and platforms: JavaScript,
+          React, Redux, PostgreSQL, Node.js etc.
           <br />
-          Currently a <span className="fancy__color">Computer-Science</span> studnent in&nbsp; 
-          <a href="https://www.shanghairanking.com/institution/the-hebrew-university-of-jerusalem"
-             target="_blank"
-             rel="noopener noreferrer"
-             style={{textDecoration: "none", color: "#878a8f"}}>
-          The Hebrew University of Jerusalem</a>.
+          Currently a <span className="fancy__color">
+            Computer-Science
+          </span>{" "}
+          student at&nbsp;
+          <a
+            href="https://www.shanghairanking.com/institution/the-hebrew-university-of-jerusalem"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none", color: "#878a8f" }}
+          >
+            The Hebrew University of Jerusalem
+          </a>
+          .
         </p>
       </div>
       <div className="scroll__icon">

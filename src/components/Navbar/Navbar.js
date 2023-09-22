@@ -1,14 +1,18 @@
-import React from "react";
 import "./Navbar.css";
-import myLogo from "./Logo.png";
-// import Resume from "./Arie Levental Resume.pdf";
 
 const Navbar = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="header">
       <div className="logo">
         <a href="/">
-          <img src={myLogo} alt="logo" width="350" height="70" />
+          <img
+            src="/assets/logos/full-logo.png"
+            alt="full-logo"
+            width="350"
+            height="70"
+          />
         </a>
       </div>
       <div className="menu-wrap">
@@ -32,17 +36,17 @@ const Navbar = () => {
                 </li>
                 <li className="resume">
                   <a
- //                   href={Resume}
+                    href="/assets/docs/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
                   >
-                    Resume - Currently Unavailable{" "}
+                    Resume{" "}
                   </a>
                   <i className="fas fa-file-download fa-xs"></i>
                 </li>
               </ul>
-              <p className="copyrights">© 2022 Arie Levental</p>
+              <p className="copyrights">© {currentYear} Arie Levental</p>
             </div>
           </div>
         </div>

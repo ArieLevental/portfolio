@@ -1,7 +1,6 @@
 .projects-section {
   background-color: #e2e2e2;
   background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
-  /* background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png"); */
   padding-bottom: 5rem;
   position: relative;
 }
@@ -77,21 +76,21 @@
 }
 
 .eagle-vision {
-  background-image: url(eaglevision.jpg);
+  background-image: url(../../../public/assets/images/projects/eaglevision.jpg);
 }
 
 .robofriends {
-  background-image: url(robofriends.jpg);
+  background-image: url(../../../public/assets/images/projects/robofriends.jpg);
 }
 
 .portfolio {
-  background-image: url(portfolio.jpg);
+  background-image: url(../../../public/assets/images/projects/portfolio.jpg);
 }
 .mcdownloads {
-  background-image: url(mcdownloads.jpg);
+  background-image: url(../../../public/assets/images/projects/mcdownloads.jpg);
 }
 .fruitty {
-  background-image: url(fruitty.jpg);
+  background-image: url(../../../public/assets/images/projects/fruitty.jpg);
 }
 .card-bg {
   position: relative;
