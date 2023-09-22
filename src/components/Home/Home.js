@@ -7,7 +7,7 @@ const Home = () => {
         className="marquee lax"
         data-lax-opacity="0 1, (document.body.scrollHeight*0.2) 0"
       >
-        <span>DEVELOPER</span>
+        <span>developer student solver</span>
       </div>
       <div className="cursor"></div>
       <p id="about__me__p"></p>
@@ -20,9 +20,24 @@ const Home = () => {
       <div className="home-text">
         <p className="home-text-name">Arie Levental</p>
         <p className="home-text-title">
-          Full-Stack <br /> Web Developer
+          Professional <br /> Code Enjoyer
         </p>
         <p className="home-text-about">
+          Welcome to my portfolio!
+          <br />
+          I'm a Computer Science <span className="fancy__color">
+            student
+          </span>{" "}
+          at The Hebrew University of Jerusalem,{" "}
+          <span className="fancy__color">passionate</span> about coding and
+          exploring diverse technologies. From JavaScript and React to Python
+          and C/C++, I love diving into the programming world.
+          <br />
+          Let's journey through my{" "}
+          <span className="fancy__color">projects</span> and share the
+          excitement of programming!
+        </p>
+        {/* <p className="home-text-about">
           Full Stack <span className="fancy__color">developer</span>, capable of
           developing <span className="fancy__color">web platforms</span> from
           scratch to production, with full responsiveness and performance.
@@ -46,7 +61,7 @@ const Home = () => {
             The Hebrew University of Jerusalem
           </a>
           .
-        </p>
+        </p> */}
       </div>
       <div className="scroll__icon">
         <div className="wheel__icon">

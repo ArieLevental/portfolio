@@ -5,16 +5,16 @@ const Navbar = () => {
 
   return (
     <div className="header">
-      <div className="logo">
-        <a href="/">
+      <a href="/">
+        <div className="logo image-container">
           <img
             src="/assets/logos/full-logo.png"
-            alt="full-logo"
-            width="350"
+            alt="full logo"
+            width="150"
             height="70"
           />
-        </a>
-      </div>
+        </div>
+      </a>
       <div className="menu-wrap">
         <input type="checkbox" className="toggler" />
         <div className="hamburger">

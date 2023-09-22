@@ -175,8 +175,8 @@ node app.js
 ## 🛣 Roadmap
 
 > - [X] `ℹ️  Get busy studying`
+> - [X] `ℹ️  Update data to represent 2023 me`
 > - [ ] `ℹ️  Insert new projects`
-> - [ ] `ℹ️  Update data to represent 2023 me`
 > - [ ] `ℹ️  Refactor the code and reduce repetitiveness`
 
 
