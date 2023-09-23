@@ -1,10 +1,14 @@
+import projectData from "./projectsData.json";
+import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
 
 const Projects = () => {
   return (
     <div className="projects-section">
       <div className="projects">
-        <p id="my__projects_p"></p>
+        {/* This is a reference for the "Projects" button at the navbar menu */}
+        <a href="#" id="my__projects_p" />
+
         <div className="projects-text">
           <h1>My Projects</h1>
           <h3>
@@ -12,182 +16,19 @@ const Projects = () => {
             spare time!
           </h3>
         </div>
+
         <div className="cards">
-          <div className="card eagle-vision">
-            <div className="enter-icon">
-              <img src="/assets/images/next.png" alt="" />
-            </div>
-            <div className="card-bg">
-              <div className="card-text">
-                <h1>Eagle-Vision</h1>
-                <h3>
-                  A React Web App for face-detection, using Clarifai's API.
-                  Equipped with a database, user authentication, and a ranking
-                  system.
-                </h3>
-                <div className="project-techs">
-                  <span>React.js</span>
-                  <span>Node.js</span>
-                  <span>Express.js</span>
-                  <span>PostgreSQL</span>
-                  <span>Bcrypt</span>
-                  <span>ClarifaiAPI</span>
-                  <span>Heroku</span>
-                </div>
-                <div className="project-buttons">
-                  <a
-                    href="https://eagle-vision.herokuapp.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/ArieLevental/eagle-vision"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card fruitty">
-            <div className="enter-icon">
-            <img src="/assets/images/next.png" alt="" />
-            </div>
-            <div className="card-bg">
-              <div className="card-text">
-                <h1>Fruitty</h1>
-                <h3>
-                  RoboFriends displays cards of robots with image, name and
-                  email. It fetches data from an API.
-                </h3>
-                <div className="project-techs">
-                  <span>React.js</span>
-                  <span>React-router</span>
-                  <span>Redux</span>
-                  <span>Node.js</span>
-                  <span>Express.js</span>
-                  <span>Styled-Components</span>
-                  <span>JWToken</span>
-                  <span>MongoDB / Mongoose</span>
-                </div>
-                <div className="project-buttons">
-                  <a>Live Demo - Soon</a>
-                  <a
-                    href="https://github.com/ArieLevental/fruitty"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card portfolio">
-            <div className="enter-icon">
-            <img src="/assets/images/next.png" alt="" />
-            </div>
-            <div className="card-bg">
-              <div className="card-text">
-                <h1>Personal Porfolio</h1>
-                <h3>
-                  My Portfolio, built from scratch to showcase my design
-                  abilities and my experience. Full compatibility for desktop,
-                  tablet and mobile devices. Much fun.
-                </h3>
-                <div className="project-techs">
-                  <span>React.js</span>
-                  <span>Sass</span>
-                  <span>Media Queries</span>
-                  <span>Firebase</span>
-                </div>
-                <div className="project-buttons">
-                  <a
-                    href="https://arielevental.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/ArieLevental/portfolio"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card mcdownloads">
-            <div className="enter-icon">
-            <img src="/assets/images/next.png" alt="" />
-            </div>
-            <div className="card-bg">
-              <div className="card-text">
-                <h1>McDownload's</h1>
-                <h3>
-                  A restaurant tool built with React, build your custom burger,
-                  get an order summary and confirm your order!
-                </h3>
-                <div className="project-techs">
-                  <span>React.js</span>
-                  <span>React Router</span>
-                  <span>CSS Modules</span>
-                </div>
-                <div className="project-buttons">
-                  <a href="/">Live Demo - Soon</a>
-                  <a
-                    href="https://github.com/ArieLevental/McDownloads"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card robofriends">
-            <div className="enter-icon">
-            <img src="/assets/images/next.png" alt="" />
-            </div>
-            <div className="card-bg">
-              <div className="card-text">
-                <h1>RoboFriends</h1>
-                <h3>
-                  RoboFriends displays cards of robots with image, name and
-                  email. It fetches data from an API.
-                </h3>
-                <div className="project-techs">
-                  <span>React.js</span>
-                  <span>RESTful Api</span>
-                  <span>Tachyons</span>
-                </div>
-                <div className="project-buttons">
-                  <a
-                    href="https://ArieLevental.github.io/robofriends/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/ArieLevental/robofriends"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          {projectData &&
+            projectData.map((project) => (
+              <ProjectCard
+                key={project.name}
+                name={project.name}
+                description={project.description}
+                techList={project.techList}
+                demoLink={project.demoLink}
+                GitHubLink={project.GitHubLink}
+              />
+            ))}
         </div>
       </div>
     </div>

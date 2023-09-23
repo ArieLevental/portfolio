@@ -1,8 +1,7 @@
 @font-face {
   font-family: "Helvetica Now Display Regular";
   src: local("HelveticaNowDisplay-Regular"),
-    /* url(../../../public/assets/fonts/HelveticaNowDisplay-Regular.ttf) */
-      url(../../../public/assets/fonts/HelveticaNowDisplay-Regular.ttf)
+    url(../../../public/assets/fonts/HelveticaNowDisplay-Regular.ttf)
       format("truetype");
 }
 

@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Eagle-Vision",
+        "description": "A React Web App for face-detection, using Clarifai's API. Equipped with a database, user authentication, and a ranking system.",
+        "techList": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "PostgreSQL",
+            "Bcrypt",
+            "ClarifaiAPI",
+            "Heroku"
+        ],
+        "demoLink": "https://eagle-vision.herokuapp.com/",
+        "GitHubLink": "https://github.com/ArieLevental/eagle-vision"
+    },
+    {
+        "name": "Fruitty",
+        "description": "RoboFriends displays cards of robots with image, name and email. It fetches data from an API.",
+        "techList": [
+            "React.js",
+            "React-router",
+            "Redux",
+            "Node.js",
+            "Express.js",
+            "Styled-Components",
+            "JWToken",
+            "MongoDB / Mongoose"
+        ],
+        "demoLink": "Live Demo - Soon",
+        "GitHubLink": "https://github.com/ArieLevental/fruitty"
+    },
+    {
+        "name": "Portfolio",
+        "description": "My Portfolio, built from scratch to showcase my design abilities and my experience. Full compatibility for desktop, tablet and mobile devices. Much fun.",
+        "techList": [
+            "React.js",
+            "Sass",
+            "Media Queries",
+            "Firebase"
+        ],
+        "demoLink": "https://arielevental.com/",
+        "GitHubLink": "https://github.com/ArieLevental/portfolio"
+    },
+    {
+        "name": "McDownloads",
+        "description": "A restaurant tool built with React, build your custom burger, get an order summary and confirm your order!",
+        "techList": [
+            "React.js",
+            "React Router",
+            "CSS Modules"
+        ],
+        "demoLink": "Live Demo - Soon",
+        "GitHubLink": "https://github.com/ArieLevental/McDownloads"
+    },
+    {
+        "name": "RoboFriends",
+        "description": "RoboFriends displays cards of robots with image, name and email. It fetches data from an API.",
+        "techList": [
+            "React.js",
+            "RESTful Api",
+            "Tachyons"
+        ],
+        "demoLink": "https://ArieLevental.github.io/robofriends/",
+        "GitHubLink": "https://github.com/ArieLevental/robofriends"
+    }
+]
