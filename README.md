@@ -17,7 +17,10 @@
 <img src="https://img.shields.io/github/languages/code-size/ArieLevental/portfolio?style&color=5D6D7E" alt="GitHub code size in bytes" />
 <img src="https://img.shields.io/github/license/ArieLevental/portfolio?style&color=5D6D7E" alt="GitHub license" />
 </div>
-
+<br>
+<div align="center">
+<img src="https://github.com/ArieLevental/portfolio/blob/master/public/assets/images/demo.png?raw=true" width="500" />
+</div>
 ---
 
 ## 📖 Table of Contents
