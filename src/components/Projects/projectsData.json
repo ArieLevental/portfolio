@@ -1,7 +1,33 @@
 [
     {
+        "name": "Moshal-Social",
+        "description": "An exclusive social networking platform dedicated to the Moshal Scholarship Program, designed to simplify and enhance connections among scholars within the community.",
+        "techList": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "RESTful API",
+            "JWT",
+            "GitHub"
+        ],
+        "demoLink": "https://moshalsocial.site/",
+        "GitHubLink": "https://github.com/ArieLevental/moshal-social"
+    },
+    {
+        "name": "Boggle",
+        "description": "A Python-based variation of the classic Boggle board game, enhanced with the tkinter GUI library for an engaging interface. This iteration includes unique features and employs intelligent algorithms to elevate the gaming experience.",
+        "techList": [
+            "Python",
+            "tkinter GUI",
+            "Algorithms"
+        ],
+        "demoLink": "",
+        "GitHubLink": "https://github.com/ArieLevental/Boggle"
+    },
+    {
         "name": "Eagle-Vision",
-        "description": "A React Web App for face-detection, using Clarifai's API. Equipped with a database, user authentication, and a ranking system.",
+        "description": "A React-based web application employing Clarifai's API for face detection. It incorporates essential components like a robust database, user authentication, and a dynamic ranking system.",
         "techList": [
             "React.js",
             "Node.js",
@@ -16,7 +42,7 @@
     },
     {
         "name": "Fruitty",
-        "description": "RoboFriends displays cards of robots with image, name and email. It fetches data from an API.",
+        "description": "An interactive React app for fruit enthusiasts! Discover and store your preferred fruits, easily modify their nutritional information, and efficiently manage your favorites list.",
         "techList": [
             "React.js",
             "React-router",
@@ -27,12 +53,12 @@
             "JWToken",
             "MongoDB / Mongoose"
         ],
-        "demoLink": "Live Demo - Soon",
+        "demoLink": "",
         "GitHubLink": "https://github.com/ArieLevental/fruitty"
     },
     {
         "name": "Portfolio",
-        "description": "My Portfolio, built from scratch to showcase my design abilities and my experience. Full compatibility for desktop, tablet and mobile devices. Much fun.",
+        "description": "Crafted from scratch, my Portfolio showcases my design skills and experience seamlessly across desktop, tablet, and mobile. It's all about having a blast while browsing!",
         "techList": [
             "React.js",
             "Sass",
@@ -41,27 +67,5 @@
         ],
         "demoLink": "https://arielevental.com/",
         "GitHubLink": "https://github.com/ArieLevental/portfolio"
-    },
-    {
-        "name": "McDownloads",
-        "description": "A restaurant tool built with React, build your custom burger, get an order summary and confirm your order!",
-        "techList": [
-            "React.js",
-            "React Router",
-            "CSS Modules"
-        ],
-        "demoLink": "Live Demo - Soon",
-        "GitHubLink": "https://github.com/ArieLevental/McDownloads"
-    },
-    {
-        "name": "RoboFriends",
-        "description": "RoboFriends displays cards of robots with image, name and email. It fetches data from an API.",
-        "techList": [
-            "React.js",
-            "RESTful Api",
-            "Tachyons"
-        ],
-        "demoLink": "https://ArieLevental.github.io/robofriends/",
-        "GitHubLink": "https://github.com/ArieLevental/robofriends"
     }
 ]

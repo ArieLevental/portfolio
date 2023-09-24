@@ -6,8 +6,7 @@ const Projects = () => {
   return (
     <div className="projects-section">
       <div className="projects">
-        {/* This is a reference for the "Projects" button at the navbar menu */}
-        <a href="#" id="my__projects_p" />
+        <p id="my__projects_p" />
 
         <div className="projects-text">
           <h1>My Projects</h1>

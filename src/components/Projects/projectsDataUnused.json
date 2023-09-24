@@ -1,0 +1,24 @@
+[
+    {
+        "name": "McDownloads",
+        "description": "A restaurant tool built with React, build your custom burger, get an order summary and confirm your order!",
+        "techList": [
+            "React.js",
+            "React Router",
+            "CSS Modules"
+        ],
+        "demoLink": "Live Demo - Soon",
+        "GitHubLink": "https://github.com/ArieLevental/McDownloads"
+    },
+    {
+        "name": "RoboFriends",
+        "description": "RoboFriends displays cards of robots with image, name and email. It fetches data from an API.",
+        "techList": [
+            "React.js",
+            "RESTful Api",
+            "Tachyons"
+        ],
+        "demoLink": "https://ArieLevental.github.io/robofriends/",
+        "GitHubLink": "https://github.com/ArieLevental/robofriends"
+    }
+]

@@ -17,9 +17,11 @@ const ProjectCard = ({ name, description, techList, demoLink, GitHubLink }) => {
             ))}
           </div>
           <div className="project-buttons">
-            <a href={demoLink} target="_blank" rel="noopener noreferrer">
-              Live Demo
-            </a>
+            {demoLink && (
+              <a href={demoLink} target="_blank" rel="noopener noreferrer">
+                Live Demo
+              </a>
+            )}
             <a href={GitHubLink} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
@@ -31,11 +33,11 @@ const ProjectCard = ({ name, description, techList, demoLink, GitHubLink }) => {
 };
 
 ProjectCard.propTypes = {
-    name: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    techList: PropTypes.arrayOf(PropTypes.string).isRequired,
-    demoLink: PropTypes.string.isRequired,
-    GitHubLink: PropTypes.string.isRequired,
-  };
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  techList: PropTypes.arrayOf(PropTypes.string).isRequired,
+  demoLink: PropTypes.string.isRequired,
+  GitHubLink: PropTypes.string.isRequired,
+};
 
 export default ProjectCard;

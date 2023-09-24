@@ -15,7 +15,7 @@ class Contact extends React.Component {
     return (
       <div className="contact-section">
         <div className="contact">
-          <p id="contact__me__p"></p>
+          <p id="contact__me__p" />
           <div className="contact-text">
             <h1>Contact</h1>
             <h3>

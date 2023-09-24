@@ -41,6 +41,14 @@
   height: auto;
 }
 
+.moshal-social {
+  background-image: url(../../../../public/assets/images/projects/moshal-social.jpg);
+}
+
+.boggle {
+  background-image: url(../../../../public/assets/images/projects/boggle.jpg);
+}
+
 .eagle-vision {
   background-image: url(../../../../public/assets/images/projects/eaglevision.jpg);
 }
