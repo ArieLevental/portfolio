@@ -20,7 +20,7 @@ const Home = () => {
       <div className="home-text">
         <p className="home-text-name">Arie Levental</p>
         <p className="home-text-title">
-          Passionate  <br /> Software Developer
+          Enthusiastic  <br /> Software Developer
         </p>
         <p className="home-text-about">
           Welcome to my portfolio!
