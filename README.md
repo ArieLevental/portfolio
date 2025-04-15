@@ -19,9 +19,7 @@
 </div>
 <br>
 <div align="center">
-<img src="https://github.com/ArieLevental/portfolio/blob/master/public/assets/images/demo.png?raw=true" width="500" />
 </div>
----
 
 ## 📖 Table of Contents
 - [📖 Table of Contents](#-table-of-contents)
